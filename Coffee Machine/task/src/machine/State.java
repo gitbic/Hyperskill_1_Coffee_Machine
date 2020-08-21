@@ -1,0 +1,14 @@
+package machine;
+
+enum State {
+    MAIN_MENU,
+    COFFEE_MENU,
+    MAKE_COFFEE,
+    FILL_RESOURCES,
+    TAKE_MONEY,
+    SHOW_RESOURCES,
+    POWER_OFF,
+    POWER_ON,
+    CHOOSE_ACTION,
+    CHOOSE_COFFEE;
+}
